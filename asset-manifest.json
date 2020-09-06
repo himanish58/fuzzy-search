@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/fuzzy-search/static/css/main.f503cd91.chunk.css",
+    "main.js": "/fuzzy-search/static/js/main.c4df4975.chunk.js",
+    "main.js.map": "/fuzzy-search/static/js/main.c4df4975.chunk.js.map",
+    "runtime-main.js": "/fuzzy-search/static/js/runtime-main.4ee21665.js",
+    "runtime-main.js.map": "/fuzzy-search/static/js/runtime-main.4ee21665.js.map",
+    "static/js/2.b3a73460.chunk.js": "/fuzzy-search/static/js/2.b3a73460.chunk.js",
+    "static/js/2.b3a73460.chunk.js.map": "/fuzzy-search/static/js/2.b3a73460.chunk.js.map",
+    "index.html": "/fuzzy-search/index.html",
+    "precache-manifest.88b4072e001526623ed28f731e3b9668.js": "/fuzzy-search/precache-manifest.88b4072e001526623ed28f731e3b9668.js",
+    "service-worker.js": "/fuzzy-search/service-worker.js",
+    "static/css/main.f503cd91.chunk.css.map": "/fuzzy-search/static/css/main.f503cd91.chunk.css.map",
+    "static/js/2.b3a73460.chunk.js.LICENSE.txt": "/fuzzy-search/static/js/2.b3a73460.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4ee21665.js",
+    "static/js/2.b3a73460.chunk.js",
+    "static/css/main.f503cd91.chunk.css",
+    "static/js/main.c4df4975.chunk.js"
+  ]
+}

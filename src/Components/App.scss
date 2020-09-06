@@ -1,0 +1,62 @@
+body {
+	padding: 0;
+	margin: 0;
+
+	.container {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+
+		.heading {
+			padding-top: 1rem;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			position: sticky;
+			top: 0;
+			background-color: white;
+
+			.search-box {
+				padding: 0.5rem 1rem;
+				width: 300px;
+				box-sizing: border-box;
+			}
+		}
+
+		ul {
+			padding-inline-start: 0;
+			margin-block-start: 0;
+			width: 300px;
+
+			li {
+				padding: 1rem;
+				list-style: none;
+
+				div {
+					font-size: 1rem;
+					line-height: 1.75;
+				}
+
+				.id {
+					font-size: 1.25rem;
+					font-weight: bold;
+				}
+
+				.name {
+					font-size: 1.25rem;
+					font-style: italic;
+				}
+			}
+
+			span {
+				color: blue;
+				font-weight: bold;
+				font-style: italic;
+			}
+
+			.active {
+				background: #cccccc;
+			}
+		}
+	}
+}

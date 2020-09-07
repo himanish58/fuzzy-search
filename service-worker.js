@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/fuzzy-search/precache-manifest.88b4072e001526623ed28f731e3b9668.js"
+  "/fuzzy-search/precache-manifest.e86ba77fbc7ed1917c21e29ee9877b68.js"
 );
 
 self.addEventListener('message', (event) => {

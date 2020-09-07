@@ -91,18 +91,22 @@ function App() {
 					onKeyDown={keyDownHandler}
 				/>
 			</div>
-			<ul>
-				{data.map((item, index) => (
-					<ListItem
-						item={item}
-						key={item.id}
-						index={index}
-						active={active}
-						handleMouseEnter={handleMouseEnter}
-						ref={activeRef}
-					/>
-				))}
-			</ul>
+			{data.length ? (
+				<ul>
+					{data.map((item, index) => (
+						<ListItem
+							item={item}
+							key={item.id}
+							index={index}
+							active={active}
+							handleMouseEnter={handleMouseEnter}
+							ref={activeRef}
+						/>
+					))}
+				</ul>
+			) : (
+				<div className="blank-state">No Result Found</div>
+			)}
 		</div>
 	);
 }
